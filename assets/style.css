@@ -1,0 +1,50 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+html {
+  color: black;
+  border-color: black;
+}
+
+html.dark {
+  background-color: hsl(0, 0%, 10%);
+  color: white;
+  border-color: white;
+}
+
+body {
+  padding: 2rem 6rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+ul li:first-child {
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  background-color: transparent;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+  text-align: justify;
+}
